@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PersonaTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-08-13T14:44:28" hostname="AR0FVFYM0XUHV2J" time="0.046">
+<testsuite name="PersonaTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2019-08-13T14:47:29" hostname="AR0FVFYM0XUHV2J" time="0.053">
   <properties/>
-  <testcase name="MultiplicarPorDosLaEdad" classname="PersonaTest" time="0.046">
+  <testcase name="MultiplicarPorDosLaEdad" classname="PersonaTest" time="0.053">
     <failure message="org.junit.ComparisonFailure: expected:&lt;[6]0&gt; but was:&lt;[8]0&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[6]0&gt; but was:&lt;[8]0&gt;
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -56,6 +56,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
+  <testcase name="crearPersona" classname="PersonaTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

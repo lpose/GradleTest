@@ -15,6 +15,6 @@ public class PersonaTest {
     public void MultiplicarPorDosLaEdad(){
         Persona personita = new Persona(40);
         personita.setEdad(personita.getEdad()*2);
-        Assertions.assertThat(personita.getEdad()).isEqualTo(60);
+        Assertions.assertThat(personita.getEdad()).isEqualTo(80);
     }
 }
