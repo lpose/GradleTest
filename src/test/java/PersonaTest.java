@@ -22,6 +22,6 @@ public class PersonaTest {
     public void sumarCincoALaEdad(){
         Persona personita = new Persona(40);
         personita.setEdad(personita.getEdad()+5);
-        Assertions.assertThat(personita.getEdad()).isEqualTo(46);
+        Assertions.assertThat(personita.getEdad()).isEqualTo(45);
     }
 }
